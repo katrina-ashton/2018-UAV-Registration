@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Downloaded toolchain for cross-compiling for the TX1}
+\item{Got simple helloworld program cross-compiled for TX1}
+\item{Started writing data capture code (modified from example code)}
+\item{Attempted to build the data capture code but ran into a bunch of issues. Tried building the example code but couldn't get that working either.}
+\item{Wrote draft feature list}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Hasn't changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{Spent most of this week trying to wrap my head around cmakefiles/makefiles and librealsense. So unfortunately not too much tangible progress.}
+\item{RealSense code won't even build on my laptop, let alone building bits of it. Seems like you need to use various install commands? Although I haven't found any of those that work properly either. (Got it installed on TX1 using jetsonhacks install scripts).}
+\item{Also cannot build specific files on TX1.}
+\item{I probably need to go through the cmake files for the RealSense code more carefully if I want to actually be able to build any of it.}
+\item{Probably also need to read up a bit more on C/C++.}
+\end{itemize}
+
+\end{document}

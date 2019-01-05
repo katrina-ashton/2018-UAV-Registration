@@ -1,0 +1,138 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{grffile}
+\graphicspath{{../Figures/}}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Finished assembling quad}
+\item{Started getting flying lessons from Jean-Luc}
+\item{Updated data acquisition code so that it starts by entering 's' and stops by entering 'q'.}
+\item{Started writing mid term report.}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Nothing changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{Will there be an issue with using ANU secure for SSH?}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{I tried to re-write the experiments from last week using axis-angle instead of Euler. However it turns out that the MATLAB registration only gives an affine transformation so I can't get just the rotation (so the angles I found last week are also wrong). I don't think there's a way of recovering the rotation, translation and any other part of the transformation.}
+\item{I need to work out how to SSH to the TX2 via wifi.}
+\item{I also need to test that the data acquisition code works on the TX2 via SSH without having to be restarted between runs.}
+\end{itemize}
+
+\section{Testing RealSense with Vicon}
+\textbf{Purpose} \\
+The RealSense camera and Vicon system both use IR. Thus it is possible that the Vicon system interferes with the RealSense's depth measurements. The purpose of this experiment is to determine if this interference occurs or not.
+\\\\
+\textbf{Set-up} \\
+The RealSense camera is set-up pointing at a number of objects lying on the ground of the flying space. It is positioned in the groove of the white box. It stays relatively still but both the box and the RealSense itself are sensitive to bumps.
+\\\\
+The RealSense is connected to the TX2 (with orbitty board), and then SSHed to via an Ethernet cable. 
+\\\\
+\textbf{Method} \\
+The camera remains still while point clouds are captured for about 5 seconds. The data collection program is then stopped. 
+\\\\
+For some reason the code wasn't letting the data collection program be re-run through SSH after it was canceled without restarting the TX2 (I did not have this issue with the TX1 which I connected to directly). Thus the TX2 was restarted by disconnecting and reconnecting the power (taking care not to bump the camera). Before the power was reconnected, the SD card was also removed from the TX2 and inserted into a laptop. The captured pointclouds were moved to a separate folder so that it would be clear under which conditions they were captured.
+\\\\
+The Vicon system was then activated and the above procedure repeated (but without reconnecting the power for the TX2 at the end).
+\\\\
+\textbf{Results} \\
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=50mm, trim = 20mm 20mm 20mm 20mm, clip]{first_frame_compare.png}
+		\caption{Comparison of first point cloud with (green) and without (purple) Vicon on. Registering the point clouds gives a sum-squared difference of 0.3223 to I, with rmse 0.5990 for the registration.}
+		\label{f: vicon first frame}
+	\end{figure}
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=50mm, trim = 20mm 20mm 20mm 20mm, clip]{full_compare.png}
+		\caption{Comparison of registered point clouds with (green) and without (purple) Vicon on. Registering the point clouds gives a sum-squared difference of 0.0094 to I, with rmse 0.4770 for the registration.}
+		\label{f: vicon all frame}
+	\end{figure}
+\noindent
+There are only small differences between the point clouds for the scene with and without the Vicon. It is possible that these could have been caused by the camera moving slightly as it was not held securely in place and so would have been susceptible to bumps. There will also be noise present. This is supported by the fact that the difference from the identity and rmse error for the registration were both smaller for the full point cloud rather than just the first frame.
+\\\\
+\textbf{Conclusion} \\
+The Vicon does not appear to significantly affect the RealSense's ability to capture depth data. Thus we will be able to use both at the same time for the data capture.
+
+\newpage
+\section{Testing RealSense for different movement speeds}
+\textbf{Purpose} \\
+In order to register point clouds there needs to be some degree of overlap between them. Thus to get usable data I must investigate how quickly I can move the camera while still obtaining frames with enough overlap. In addition, depending on how the point clouds are captured and processed, moving the camera too quickly may result in motion blur which should be avoided. The purpose of this experiment is to determine the fastest speed I can move the RealSense camera in while still allowing getting overlap between point clouds and without getting motion blur.
+\\\\
+\textbf{Set-up} \\
+Two strips of tape are placed on the (straight) edge of a desk about 60cm apart.
+\\\\
+The RealSense is connected to the TX2 (with orbitty board), and then SSHed to via an Ethernet cable. 
+\\\\
+\textbf{Method} \\
+Camera is held with the end at the edge of the left piece of tape, sitting on the edge of the table. The data capture program is started while the camera is held still for 4 seconds (letting the exposure, etc. settle). The camera is then moved at a slow speed along the edge of the table to the other end of the tape, after which the data capture program is immediately canceled. The camera was moved by hand, so there was likely variation in the movement speed.
+\\\\
+As with the Vicon test, the TX2 had to be restarted between tests. The data was also moved to a separate folder after each test.
+\\\\
+The above was repeated with medium-speed camera movement and then again with fast movement.
+\\\\
+\textbf{Results} \\
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=50mm, trim = 20mm 10mm 20mm 140mm, clip]{slow_med.png}
+		\caption{Comparison of middle point cloud for a camera that is moving slowly (green) and at a medium speed (purple). Registering the point clouds gives a sum-squared difference of 0.1226 to I, with rmse 0.2146 for the registration.}
+		\label{f: slow v med}
+	\end{figure}
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=50mm, trim = 20mm 10mm 20mm 100mm, clip]{slow_fast.png}
+		\caption{Comparison of middle point cloud for a camera that is moving slowly (green) and quickly (purple). Registering the point clouds gives a sum-squared difference of 0.1932 to I, with rmse 0.1690 for the registration.}
+		\label{f: slow v med}
+	\end{figure}
+\noindent
+It was checked that all of point clouds could be registered for all of the different speeds. All of them were able to be registered.
+\\\\
+There is a difference between the point cloud obtained during the slow movement and during the medium speed movement, and a larger difference between the slow and fast movement. This difference is, however, relatively small. Thus it could be caused by noise and/or the camera not being at the same position when the data was captured.
+\\\\
+\textbf{Conclusion} \\
+It seems like the camera can be moved relatively quickly while still capturing usable data. However more trials need to be performed in order to get more reliable results. The camera was moved by hand for this experiment, so the motion was not uniform and the exact speed is unknown. Ideally the experiment would use equipment that would allow for uniform motion.
+\\\\
+Only 3 point clouds were captured for the fast motion, so if possible future trials should also use a longer distance so that more point clouds can be obtained. This is important for verifying that there is enough overlap between point clouds for registration.
+
+\end{document}

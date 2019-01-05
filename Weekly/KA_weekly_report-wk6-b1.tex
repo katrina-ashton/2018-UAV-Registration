@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Started adding mount for gimbal and TX2 to quad (need some screws to finish)}
+\item{Tried to write data collection code. Have something that would probably work on my laptop but it needs stuff from the newer version of librealsense which I don't have on the TX1}
+\item{Had another go at trying to cross-compile librealsense stuff for TX1 but having issues}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Hasn't changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{My laptop doesn't recognise when there is a realsense camera plugged in. Had a go at fixing it but no luck. I can see the camera with lsusb but the realsense applications don't detect it.}
+\item{The version of realsense that I installed on the TX1 is pretty old, and doesn't have a lot of the stuff in the current version. (Including some stuff that's pretty helpful for capturing and saving point clouds). It might be possible to get the newer version working, but it's not officially supported and will require a fair bit of mucking around (jetsonhacks only did the old version). I should be able to do the data capture using the old version of librealsense, but ideally I'd get the new version working either on the TX1 or through cross-compiling.}
+\end{itemize}
+
+\end{document}

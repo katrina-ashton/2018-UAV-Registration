@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Talked to Alex and Jean-Luc about the custom cables I need}
+\item{Talked to Jean-Luc about data synchronization}
+\item{Tried to install PCL on my ubuntu dual-boot but ran into issues installing the dependencies. Main issue seems to be openni. Now trying to get it working on windows but all for one installer doesn't install openni properly and I'm having some issues getting it to find the dependencies.}
+\item{Got some visualization code using PCL to view my .ply point clouds but haven't been able to use it yet because of my troubles getting PCL working.}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Nothing changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{Is a 20ms delay on the IMU data coming to the TX2 from the pixhawk OK for synchronization purposes?}
+\item{How should I center the RealSense camera on the gimbal? Any other considerations for positioning?}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{Jean-Luc says he does synchonisation assuming IMU data is in real-time. He says the maximum delay should be 20ms.}
+\item{Jean-Luc's code does not have information about the gimbal and he apparently has tried to get data from it with no success.}
+\item{I need to talk to you and Alex about mounting the RealSense camera on the gimbal.}
+\end{itemize}
+
+\end{document}

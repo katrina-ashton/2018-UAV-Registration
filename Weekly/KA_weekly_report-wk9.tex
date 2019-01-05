@@ -1,0 +1,58 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Researched new RealSense cameras and talked to you about them}
+\item{Viewed point clouds in MATLAB; fixed up some of my acquisition code to get this to work.}
+\item{Looked at captured point clouds under different conditions (lighting, movement speed, distance).}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Nothing changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{Minimum distance is about 55.5cm, maximum distance is somewhere over 1.5m (I didn't have enough space to properly measure the max distance, but the point cloud was getting pretty patchy at this distance).}
+\item{Transforming a point cloud with a known rotation and then registering it using MATLAB does not actually recover the rotation.}
+\item{I have to move the camera very slowly for registration to work. Even then it doesn't seem to do a good job.}
+\end{itemize}
+
+\end{document}

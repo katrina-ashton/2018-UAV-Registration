@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Got dual boot set up on my computer}
+\item{Set up TX1 to work with RealSense, also set-up host}
+\item{Started looking at example code for data acquisition using RealSense}
+\item{Started trying to get a better understanding of C/C++}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Hasn't changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{How should I store the RealSense data?}
+\item{Do I also need to write code to get imu data from the quad? If so, should that be seperate to the RealSense data acquisition code?}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{From looking up more stuff about the controller online I'm pretty sure I managed to bind it properly. It's probably just not working because I haven't got the control software set up yet.}
+\item{From the instructions I looked at all the stuff I've done with the TX1 so far should be transferable to the TX2.}
+\item{I will probably need to get Jean Luc's code for the quad soon.}
+\end{itemize}
+
+\end{document}

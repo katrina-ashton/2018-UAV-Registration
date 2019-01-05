@@ -1,0 +1,55 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage[numbers]{natbib}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage[font=small]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[raggedright]{titlesec}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{framed}
+\usepackage[pdftex,breaklinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = green, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+
+\begin{document}
+\author{Katrina Ashton}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{u5586882}
+
+\section{What I've done}
+\begin{itemize}
+\item{Got ground station installed and started trying to work out what's going on with the controls. The controls are picked up by the ground station, so seems like it's an issue with how the pixhawk is controlling the motors rather than an issue with the transmitter or receiver.}
+\item{Wrote and compiled some data acquisition code, did some testing (I looked at the output and the format and range of values are as expected. But I haven't checked with any known test cases or tried to read it into a program). I need to add some stuff to deal with syncing the timing to imu data.}
+\end{itemize}
+
+\section{Parts of report to look at}
+\begin{itemize}
+\item{Hasn't changed since last week}
+\end{itemize}
+
+\section{Questions}
+\begin{itemize}
+\item{}
+\end{itemize}
+
+\section{Comments}
+\begin{itemize}
+\item{I've spent a lot of the last few weeks trying to get librealsense (latest version) working on my laptop and then trying to cross compile it. Turns out the R200 camera (which is the version we're using) isn't supported by Intel anymore, so it only works on the legacy branch of the SDK. (It works with the version Jetson Hacks used). So I can't use a lot of the nice new classes/functions and I doubt the developers will offer support (the TX1/TX2 are also not officially supported).}
+\end{itemize}
+
+\end{document}

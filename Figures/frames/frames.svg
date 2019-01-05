@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="frames.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path846"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path849"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-4"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-8"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-40"
+         style="fill:#0000fc;fill-opacity:1;fill-rule:evenodd;stroke:#0000fc;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-4"
+         style="fill:#0000fc;fill-opacity:1;fill-rule:evenodd;stroke:#0000fc;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-8-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-4-0"
+         style="fill:#00b900;fill-opacity:1;fill-rule:evenodd;stroke:#00b900;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-1-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-8-0"
+         style="fill:#00a300;fill-opacity:1;fill-rule:evenodd;stroke:#00a300;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-3"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-2"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-8-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-4-7"
+         style="fill:#ff7f2a;fill-opacity:1;fill-rule:evenodd;stroke:#ff7f2a;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-1-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-8-8"
+         style="fill:#ff7f2a;fill-opacity:1;fill-rule:evenodd;stroke:#ff7f2a;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-8-94"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-4-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-1-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-8-2"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-9-8-99"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path846-0-4-6"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1-1-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-6-8-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.06"
+     inkscape:cx="415.12485"
+     inkscape:cy="747.73585"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       d="M 29.856354,18.526179 29.523532,53.237974 H 66.799605"
+       id="path10"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45558861;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12"
+       cx="29.459513"
+       cy="52.586388"
+       r="2.134583"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.19768821px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 31.111033,51.121306 -3.333786,2.837795"
+       id="path1250-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.19768822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 27.777247,51.313266 3.333786,2.837795"
+       id="path1250-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9);marker-end:url(#Arrow2Mend-1)"
+       d="M 88.843873,53.35209 88.511051,18.640294 h 37.276029"
+       id="path10-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9-8);marker-end:url(#Arrow2Mend-1-1)"
+       d="m 151.73437,54.013665 -0.33282,-34.711797 h 37.27607"
+       id="path10-3-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45558867;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12-2-9"
+       cx="88.191109"
+       cy="18.688284"
+       r="2.134583"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <ellipse
+       style="fill:#000006;fill-opacity:1;stroke:#000000;stroke-width:0.4969981;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1372-3"
+       cx="88.151176"
+       cy="18.853003"
+       rx="0.30110791"
+       ry="0.42591134"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.4555887;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12-2-9-1"
+       cx="152.0106"
+       cy="19.437107"
+       r="2.134583"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <ellipse
+       style="fill:#000006;fill-opacity:1;stroke:#000000;stroke-width:0.49699813;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1372-3-9"
+       cx="151.97067"
+       cy="19.601826"
+       rx="0.30110791"
+       ry="0.42591134"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="146.02005"
+       y="16.192217"
+       id="text2170"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168"
+         x="146.02005"
+         y="16.192217"
+         style="stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.712658"
+       y="59.873425"
+       id="text2174"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172"
+         x="23.712658"
+         y="59.873425"
+         style="stroke-width:0.26458332">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.368713"
+       y="54.382072"
+       id="text2178"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176"
+         x="83.368713"
+         y="54.382072"
+         style="stroke-width:0.26458332">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="67.160873"
+       y="58.62674"
+       id="text2170-9"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168-6"
+         x="67.160873"
+         y="58.62674"
+         style="stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="123.93155"
+       y="16.233496"
+       id="text2170-8"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168-3"
+         x="123.93155"
+         y="16.233496"
+         style="stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="146.46504"
+       y="53.924141"
+       id="text2174-3"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172-4"
+         x="146.46504"
+         y="53.924141"
+         style="stroke-width:0.26458332">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="81.816864"
+       y="17.23193"
+       id="text2174-8"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172-45"
+         x="81.816864"
+         y="17.23193"
+         style="stroke-width:0.26458332">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="185.74379"
+       y="16.263458"
+       id="text2178-2"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176-7"
+         x="185.74379"
+         y="16.263458"
+         style="stroke-width:0.26458332">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.998503"
+       y="18.23036"
+       id="text2178-9"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176-5"
+         x="23.998503"
+         y="18.23036"
+         style="stroke-width:0.26458332">Z</tspan></text>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9-7);marker-end:url(#Arrow2Mend-1-8)"
+       d="M 45.746339,122.88826 45.413517,88.176466 h 37.276032"
+       id="path10-3-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#0000ff;stroke-width:0.4555887;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12-2-9-7"
+       cx="45.093567"
+       cy="88.224457"
+       r="2.134583"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <ellipse
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.49699813;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1372-3-1"
+       cx="45.053635"
+       cy="88.389175"
+       rx="0.30110791"
+       ry="0.42591134"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="40.271175"
+       y="123.91824"
+       id="text2178-5"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176-1"
+         x="40.271175"
+         y="123.91824"
+         style="fill:#0000ff;fill-opacity:1;stroke-width:0.26458332">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="80.834007"
+       y="85.769669"
+       id="text2170-8-9"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168-3-4"
+         x="80.834007"
+         y="85.769669"
+         style="fill:#0000ff;fill-opacity:1;stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.719326"
+       y="86.768105"
+       id="text2174-8-9"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172-45-6"
+         x="38.719326"
+         y="86.768105"
+         style="fill:#0000ff;fill-opacity:1;stroke-width:0.26458332">Y</tspan></text>
+    <path
+       style="fill:none;stroke:#ff7f2a;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9-8-9);marker-end:url(#Arrow2Mend-1-1-9)"
+       d="M 21.506627,113.34551 45.413517,88.176466 72.193258,114.10619"
+       id="path10-3-9-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.45558873;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12-2-9-1-5"
+       cx="44.802803"
+       cy="81.736023"
+       r="2.134583"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <ellipse
+       style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.49699816;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1372-3-9-9"
+       cx="44.762871"
+       cy="81.900742"
+       rx="0.30110791"
+       ry="0.42591134"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="39.561069"
+       y="80.23838"
+       id="text2170-80"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168-62"
+         x="39.561069"
+         y="80.23838"
+         style="fill:#ff7f2a;fill-opacity:1;stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="17.291832"
+       y="117.97031"
+       id="text2174-3-8"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172-4-7"
+         x="17.291832"
+         y="117.97031"
+         style="fill:#ff7f2a;fill-opacity:1;stroke-width:0.26458332">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="74.791885"
+       y="117.00183"
+       id="text2178-2-1"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176-7-5"
+         x="74.791885"
+         y="117.00183"
+         style="fill:#ff7f2a;fill-opacity:1;stroke-width:0.26458332">Z</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 54.114767,96.316037 c 7.987421,-1.996856 1.996855,-7.737814 1.996855,-7.737814"
+       id="path5370"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="67.184181"
+       y="94.568787"
+       id="text5374"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\cam2quad.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan14776"
+         x="67.184181"
+         y="94.568787">45º</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12997"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion12999"><rect
+           id="rect13001"
+           width="42.452831"
+           height="82.07547"
+           x="413.20755"
+           y="364.02911" /></flowRegion><flowPara
+         id="flowPara13003" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9-8-94);marker-end:url(#Arrow2Mend-1-1-8)"
+       d="m 188.5195,120.22638 0.33282,-34.711766 h -37.27607"
+       id="path10-3-9-80"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera2.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45558873;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12-2-9-1-7"
+       cx="-188.2433"
+       cy="85.649849"
+       r="2.134583"
+       transform="scale(-1,1)"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera2.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <ellipse
+       style="fill:#000006;fill-opacity:1;stroke:#000000;stroke-width:0.49699816;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1372-3-9-7"
+       cx="-188.28323"
+       cy="85.814568"
+       rx="0.30110791"
+       ry="0.42591134"
+       transform="scale(-1,1)"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera2.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="188.7262"
+       y="81.905746"
+       id="text2170-3"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera2.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168-32"
+         x="188.7262"
+         y="81.905746"
+         style="stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="149.98293"
+       y="82.446251"
+       id="text2174-3-0"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera2.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172-4-4"
+         x="149.98293"
+         y="82.446251"
+         style="stroke-width:0.26458332">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="194.90274"
+       y="120.16687"
+       id="text2178-2-8"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera2.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176-7-8"
+         x="194.90274"
+         y="120.16687"
+         style="stroke-width:0.26458332">Z</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26923683px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart-9-8-99);marker-end:url(#Arrow2Mend-1-1-3)"
+       d="m 151.09876,179.46313 -0.33282,-34.7118 h 37.27607"
+       id="path10-3-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera3.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45558873;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path12-2-9-1-54"
+       cx="151.375"
+       cy="144.88657"
+       r="2.134583"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera3.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <ellipse
+       style="fill:#000006;fill-opacity:1;stroke:#000000;stroke-width:0.49699816;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path1372-3-9-6"
+       cx="151.33507"
+       cy="145.05128"
+       rx="0.30110791"
+       ry="0.42591134"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera3.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="185.07195"
+       y="141.86134"
+       id="text2170-93"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera3.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2168-4"
+         x="185.07195"
+         y="141.86134"
+         style="stroke-width:0.26458332">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="145.08063"
+       y="141.68295"
+       id="text2174-3-7"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera3.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2172-4-8"
+         x="145.08063"
+         y="141.68295"
+         style="stroke-width:0.26458332">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="144.67186"
+       y="179.15396"
+       id="text2178-2-7"
+       inkscape:export-filename="E:\User folders\Documents\Uni stuff\R&amp;D\5th year\camera3.png"
+       inkscape:export-xdpi="256"
+       inkscape:export-ydpi="256"><tspan
+         sodipodi:role="line"
+         id="tspan2176-7-7"
+         x="144.67186"
+         y="179.15396"
+         style="stroke-width:0.26458332">Z</tspan></text>
+  </g>
+</svg>

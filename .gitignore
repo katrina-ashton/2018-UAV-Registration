@@ -1,0 +1,22 @@
+*.aux
+*.log
+*.maf
+*.minTsk
+*.mtc*
+*.ptc*
+*.synctex*
+*.toc
+*.bbl
+*.blg
+*.hst
+*.ver
+*.bcf
+*.run.xml
+*.out
+*.lot
+*.lof
+*.gz
+quad/matches/
+quad/matches - Q1/
+quad/PCs/
+quad/PCs - Q1/
